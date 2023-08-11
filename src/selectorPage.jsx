@@ -215,7 +215,7 @@ const Selector = () => {
                       data.properties.gridX
                     }&gridY=${data.properties.gridY}&timeZone=${
                       data.properties.timeZone
-                    }`);
+                    }&temperatureUnit=${temperatureUnit}`);
                   })
                   .catch((err) => {
                     console.log(err);
@@ -247,7 +247,7 @@ const Selector = () => {
                         data.properties.gridX
                       }&gridY=${data.properties.gridY}&timeZone=${
                         data.properties.timeZone
-                      }`);
+                      }&temperatureUnit=${temperatureUnit}`);
                     }
                   });
               } else {
